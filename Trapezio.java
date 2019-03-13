@@ -24,7 +24,7 @@ public class Trapezio extends Quadrilatero
     public double Altura()
     {
         // altura entre as bases maior e menor
-        return getPontoD().getY() - getPontoD().getX();
+        return getPontoC().getY() - getPontoA().getY();
     }
  
     public double AreaTrapezio()
